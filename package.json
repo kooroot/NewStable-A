@@ -1,0 +1,22 @@
+{
+  "name": "hourglass-deposit-bot",
+  "version": "1.0.0",
+  "description": "Hourglass Stable Vault KYC 자동 예치 봇",
+  "main": "HourglassDepositBot.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run HourglassDepositBot.ts",
+    "dev": "bun run --watch HourglassDepositBot.ts",
+    "setup": "bun install"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "bun-types": "^1.0.18"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}

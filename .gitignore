@@ -1,0 +1,45 @@
+# 환경 변수
+.env
+.env.local
+.env.*.local
+
+# 개인 키 파일
+wallets.txt
+private_keys.txt
+*.key
+*.pem
+
+# 설정 파일
+config.json
+config.local.json
+
+# 의존성
+node_modules/
+
+# Bun
+bun.lockb
+.bun/
+
+# 로그
+*.log
+logs/
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 테스트 파일
+test/
+*.test.ts
+*.spec.ts
+
+# 빌드 산출물
+dist/
+build/
+out/
