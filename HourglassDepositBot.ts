@@ -3,10 +3,10 @@ import * as readline from 'readline';
 import * as fs from 'fs';
 import * as path from 'path';
 
-// 상수 정의 - Sepolia Testnet
-const VAULT_ADDRESS = '0xd9b2CB2FBAD204Fc548787EF56B918c845FCce40'; // Deployed Sepolia vault address (checksum)
-const USDC_ADDRESS = '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48'; // Sepolia USDC
-const TARGET_TIMESTAMP = 1762437600; // 목표 타임스탬프 (2024-11-06 15:15:00 KST = 06:15:00 UTC)
+// 상수 정의 - Mainnet
+const VAULT_ADDRESS = '0xd9b2CB2FBAD204Fc548787EF56B918c845FCce40'; 
+const USDC_ADDRESS = '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48';
+const TARGET_TIMESTAMP = 1762437600;
 const TIMESTAMP_TOLERANCE = 3; // ±3초 허용 오차
 const USDC_DECIMALS = 6;
 const MIN_DEPOSIT = 1000; // 최소 1000 USDC
